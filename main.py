@@ -7,6 +7,7 @@ import wandb
 import hydra
 from omegaconf import DictConfig
 
+# Steps available in the pipeline. The steps could also be listed in config[steps]
 _steps = [
     "download",
     "basic_cleaning",
