@@ -3,11 +3,11 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.13
+  - python=3.12
   - pyyaml
-  - hydra-core=1.3.2
-  - pandas=2.3.2
-  - pip=24.3.1
+  - hydra-core
+  - pandas
+  - pip
   - pip:
-      - mlflow==3.3.2
-      - wandb==0.21.3
+      - mlflow
+      - wandb
