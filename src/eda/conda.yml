@@ -4,12 +4,16 @@ channels:
   - defaults
 dependencies:
   - python=3.12
-  - hydra-core
-  - matplotlib
-  - pandas
   - pip
-  - scikit-learn
-  - jupyterlab
   - pip:
       - mlflow
       - wandb
+      - ydata-profiling
+      - matplotlib
+      - pandas
+      - numpy
+      - seaborn
+      - hydra-core
+      - scikit-learn
+      - jupyterlab
+      - ipywidgets
