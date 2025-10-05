@@ -41,8 +41,6 @@ def go(args):
     
     # Save the cleaned data to a new CSV file
     filename = "clean_sample.csv"
-    idx = df['longitude'].between(-74.25, -73.50) & df['latitude'].between(40.5, 41.2)
-    df = df[idx].copy()
     df.to_csv(filename, index=False)
 
     # Create a new artifact for the cleaned data
